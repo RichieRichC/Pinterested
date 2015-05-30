@@ -1,0 +1,14 @@
+
+
+$jumbotron-bg: lightblue;
+$navbar-height: 80px;
+$navbar-default-bg: teal;
+$navbar-default-link-color: white;
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.center {
+    text-align: center;
+}
