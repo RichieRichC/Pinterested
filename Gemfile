@@ -20,11 +20,15 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'sdoc', '~> 0.4.0',group: :doc
+# Masonry clip art 
+gem 'masonry-rails', '~> 0.2.4'
+#Assistant to the masonry gem
+gem 'jquery-turbolinks', '~> 2.1.0'
 # Paperclip gem is to allow our app to add images to it.
 gem 'paperclip'
 # Amazon connection for ruby
-gem 'aws-sdk', '< 2.0'
+gem 'aws-sdk'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 # Here is my input from the RoR book belowclear
