@@ -21,7 +21,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',group: :doc
-# Masonry clip art 
+# Masonry clip art, that makes the art move to resize it. 
 gem 'masonry-rails', '~> 0.2.4'
 #Assistant to the masonry gem
 gem 'jquery-turbolinks', '~> 2.1.0'
@@ -29,6 +29,10 @@ gem 'jquery-turbolinks', '~> 2.1.0'
 gem 'paperclip'
 # Amazon connection for ruby
 gem 'aws-sdk'
+#paginate the pages at the bottom
+gem 'will_paginate', '~> 3.0.7'
+#will tie all the paginate to bootstrap. So I can used bootstrap on my app.
+gem 'will_paginate-bootstrap', '~> 1.0.1'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 # Here is my input from the RoR book belowclear
